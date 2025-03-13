@@ -1,0 +1,4 @@
+﻿  SE_lab02.cpp
+D:\учеба\КПО лр\лр2+\SE_lab02\SE_lab02\SE_lab02.cpp(37,16): warning C4309: инициализация: усечение константного значения
+D:\учеба\КПО лр\лр2+\SE_lab02\SE_lab02\SE_lab02.cpp(71,13): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  SE_lab02.vcxproj -> D:\учеба\КПО лр\лр2+\SE_lab02\Debug\SE_lab02.exe
