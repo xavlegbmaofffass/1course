@@ -1,0 +1,33 @@
+.grid {
+    display: grid;
+    height: 1000px;
+}
+
+.grid div{
+    background-color: rgb(244, 165, 231);
+    margin: 5px;
+    border-style: solid;
+}
+.zagolovok {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-align: center;
+    font-size: 80px;
+    grid-row: 1 / 3;
+}
+.yacheyka1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+.yacheyka2 {
+    grid-column: 2 / 3 ;
+    grid-row: 1 / 2;
+}
+.yacheyka3 {
+    grid-column: 2 /3;
+    grid-row: 2 / 3;
+}
+.yacheyka1, .yacheyka2, .yacheyka3 {
+    text-align: center;
+    font-size: 40px;
+}

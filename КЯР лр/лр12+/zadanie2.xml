@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE products [
+    <!ELEMENT products (store, nproduct, product*)>
+    <!ELEMENT store (nstore)>
+    <!ELEMENT nproduct (nname, nprice, ndescription)>
+    <!ELEMENT product (name, price, description)>
+    <!ELEMENT nstore (#PCDATA)>
+    <!ELEMENT nname (#PCDATA)>
+    <!ELEMENT nprice (#PCDATA)>
+    <!ELEMENT ndescription (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+    <!ENTITY nstore "5 Элемент"> 
+    <!ENTITY nname "Наименование"> 
+    <!ENTITY nprice "Цена"> 
+    <!ENTITY ndescription "Описание товара"> 
+]>
+<products>
+    <store>
+        <nstore>&nstore;</nstore>
+    </store>
+    <nproduct>
+        <nname>&nname;</nname>
+        <nprice>&nprice;</nprice>
+        <ndescription>&ndescription;</ndescription>
+    </nproduct>
+    <product>
+        <name>Смартфон Samsung Galaxy M32 SM-M325FZKGCAU 6GB/128GB (черный)</name>
+        <price>599</price>
+        <description>Насладитесь детальным изображением на Super AMOLED 6,4'' Infinity-U экране с разрешением FHD+ и яркостью до 600 нит. Благодаря большему экрану вы увидите больше, а сверх плавная прокрутка обеспечивает комфортный просмотр во время игрового сеанса или скроллинга изображения на экране.</description>
+    </product>
+    <product>
+        <name>Смартфон Samsung Galaxy A54 5G SM-A546 6GB/128GB (белый)</name>
+        <price>1 239</price>
+        <description>Дизайн Galaxy A54 5G воплощает стремление к совершенству: задняя панель из премиум-стекла, новое гармоничное расположение камер и лаконичные цветовые решения.</description>
+    </product>
+    <product>
+        <name>Смартфон Samsung Galaxy S23 Ultra SM-S918B/DS 12GB/256GB (черный фантом)</name>
+        <price>3 529</price>
+        <description>Возвращение выдающегося дизайна с одним важным отличием - использованием переработанных и экологически чистых материалов. При создании этого смартфона мы использовали переработанное стекло и натуральные красители для окрашивания алюминиевой рамки.</description>
+    </product>
+    <product>
+        <name>Смартфон Samsung Galaxy S23 SM-S911B/DS 8GB/256GB (черный фантом)</name>
+        <price>2 609</price>
+        <description>Почувствуйте заботу о природе в каждой детали. Мы создали этот смартфон с использованием переработанных стекла и ПЭТ-пленки, а также природных красителей. А основой для коробки стали переработанные бумажные материалы.</description>
+    </product>
+    <product>
+        <name>Смартфон Samsung Galaxy A54 5G SM-A546 8GB/256GB (белый)</name>
+        <price>1 409</price>
+        <description>Благодаря VDIS и широкому углу обзора OIS Galaxy A54 5G снимает высококачественные видео с использованием функции автоматического обнаружения объектов и автофокуса.</description>
+    </product>
+</products>

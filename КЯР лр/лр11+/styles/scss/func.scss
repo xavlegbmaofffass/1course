@@ -1,0 +1,14 @@
+$base_size: 25px;
+$scale-factor: 1.5;
+
+@function font-size-scale($heading-size, $scale-factor) {
+  @return $heading-size / $scale-factor;
+}
+
+@mixin text_style($heading-size, $scale-factor) {
+  font-size: $heading-size;
+
+  + div p {
+    font-size: font-size-scale($heading-size, $scale-factor);
+  }
+}

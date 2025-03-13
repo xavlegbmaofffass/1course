@@ -1,0 +1,101 @@
+/*задание 1*/ 
+.r1, .r2, .r3, .r4, .r5, .r6, .r7{
+    display: inline-block; 
+    font-size: 35px; 
+    border-width: 8px; 
+    height: 85px; 
+    width: 70px; 
+    text-align: center; 
+}
+
+.r1{ 
+
+    border-color:rgb(235, 29, 29) ; 
+    border-style: outset;  
+} 
+
+.r2{
+    border-color:rgb(29, 235, 84) ; 
+    border-style: dashed; 
+} 
+
+.r3{
+    border-color:rgb(29, 29, 235) ; 
+    border-style: dotted; 
+} 
+
+.r4{  
+    border-color:rgb(29, 197, 235) ; 
+    border-style: double; 
+} 
+
+.r5{ 
+    border-color:rgb(250, 5, 164) ; 
+    border-style: groove; 
+} 
+
+.r6{  
+    border-color:rgb(249, 229, 11) ; 
+    border-style: inset; 
+} 
+
+.r7{
+    border-color:rgb(22, 22, 22) ; 
+    border-style: solid; 
+} 
+/* задание 2  */
+span{
+    display: inline-block; 
+    border: solid; 
+    text-indent: 5px; 
+    border-width: 5px; 
+    background-color:#FFA500; 
+    border-color:#FF4500; 
+    padding: 5px;
+}
+
+.p1{
+    width:400px; 
+    border-color: #FF7F50; 
+    text-align: center; 
+    border-style: solid; 
+    margin: auto;
+    padding: auto;
+} 
+
+.p2{
+    border:5px solid rgb(255,0,0);    
+    border-radius: 20px 40px; 
+    box-shadow: inset 2px 2px 8px 8px rgba(0,0,0,.5); 
+    overflow: auto; 
+    height: 100px; 
+} 
+
+.p3{
+    border:solid; 
+    border-color:#FF6347;  
+} 
+/*задание 4*/ 
+.block1{ 
+    box-sizing: border-box; 
+    display: inline-block; 
+    font-size: 35px; 
+    border:solid; 
+    border-color:black ; 
+    border-width: 5px; 
+    text-align: center; 
+    height: 150px; 
+    width: 150px; 
+} 
+
+.block2{ 
+    box-sizing: content-box; 
+    display: inline-block; 
+    font-size: 35px; 
+    border: solid; 
+    border-color: black; 
+    border-width: 5px; 
+    text-align: center; 
+    height: 140px; 
+    width: 140px; 
+}

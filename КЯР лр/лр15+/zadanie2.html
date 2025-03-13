@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма</title>
+    <link rel="stylesheet" href="zadanie2.css">
+</head>
+<body>
+    <form>
+        <h2>Данные студента</h2>
+        <p>
+            <label>Имя студента <input id="name" placeholder="обязательно заполнить"></label>
+        </p>
+        <p>
+            <label>Отчество студента <input id="fathname" placeholder="обязательно заполнить"></label>
+        </p>
+        <p>
+            <label>Фамилия студента<input id="surname" placeholder="обязательно заполнить"></label>
+        </p>
+        <p>
+            <label>Адрес почты<input id="mail"></label>
+        </p>
+        <p>
+            <label>Контактный номер<input id="tel"></label>
+        </p>
+        <p>
+            <label>Какую социальную сеть вы используете?</label>
+            <input id="vk" type="checkbox">
+            <label for="vk">VK</label>
+            <input id="fb" type="checkbox">
+            <label for="fb">Facebook</label>
+            <input id="inst" type="checkbox">
+            <label for="inst">Instagram</label>
+        </p>
+        <p>
+            <label for="fac" class="labels">Ваш факультет</label>
+            <select id="fac" name="fac">
+                <option>ФИТ</option>
+                <option>ХТиТ</option>
+                <option>ТОВ</option>
+                <option>ЛИД</option>
+            </select>
+        </p>
+        <p>
+            <label for="group" class="labels">Ваша группа</label>
+            <select id="group">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+            </select>
+        </p>
+        <p>
+            <label for="course" class="labels">Ваш курс</label>
+            <select id="course">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select>
+        </p>
+        <p>
+            <button id="submit" type="button">Отправить</button>
+        </p>
+    </form>
+    <footer id="footer"></footer>
+    <script>
+        document.getElementById("submit").addEventListener("click", function() {
+            let someText = "";
+            let name = document.getElementById("name").value;
+            someText += " Имя: " + name;
+            let surname = document.getElementById("surname").value;
+            someText += " Фамилия: " + surname;
+            let fathname = document.getElementById("fathname").value;
+            someText += " Отчество: " + fathname;
+            let mail = document.getElementById("mail").value;
+            someText += " Почта: " + mail;
+            let num = document.getElementById("tel").value;
+            someText += " Номер: " + num + " ";
+            let vk = document.getElementById("vk").checked;
+            someText += "VK: " + vk + " ";
+            let fb = document.getElementById("fb").checked;
+            someText += "Facebook: " + fb + " ";
+            let inst = document.getElementById("inst").checked;
+            someText += "Instagram: " + inst + " ";
+            let fac = document.getElementById("fac").value;
+            someText += "Факультет: " + fac + " ";
+            let group = document.getElementById("group").value;
+            someText += "Группа: " + group + " ";
+            let course = document.getElementById("course").value;
+            someText += "Курс: " + course;
+            let textElement = document.createElement("p");
+            textElement.innerText = someText;
+            document.getElementById("footer").append(textElement);
+        });
+    </script>
+</body>
+</html>

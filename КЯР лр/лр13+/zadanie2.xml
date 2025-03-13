@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="zadanie2.xsl"?>
+<students>
+    <student>
+        <surname>Кириленко</surname>
+        <opi>10</opi>
+        <kyar>4</kyar>
+        <oaip>10</oaip>
+    </student>
+
+    <student>
+        <surname>Лавринович</surname>
+        <opi>6</opi>
+        <kyar>4</kyar>
+        <oaip>3</oaip>
+    </student>
+
+    <student>
+        <surname>Макаревич</surname>
+        <opi>10</opi>
+        <kyar>8</kyar>
+        <oaip>10</oaip>
+    </student>
+
+    <student>
+        <surname>Пипи пупу пи</surname>
+        <opi>5</opi>
+        <kyar>5</kyar>
+        <oaip>5</oaip>
+    </student>
+
+    <student>
+        <surname>Тымощук</surname>
+        <opi>6</opi>
+        <kyar>4</kyar>
+        <oaip>5</oaip>
+    </student>
+
+    <student>
+        <surname>Загнетова</surname>
+        <opi>4</opi>
+        <kyar>1</kyar>
+        <oaip>2</oaip>
+    </student>
+
+    <student>
+        <surname>Мышковец</surname>
+        <opi>10</opi>
+        <kyar>4</kyar>
+        <oaip>10</oaip>
+    </student>
+
+    <student>
+        <surname>Кислов</surname>
+        <opi>10</opi>
+        <kyar>1</kyar>
+        <oaip>10</oaip>
+    </student>
+
+</students>

@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(175, 93, 252);
+}
+
+aside form p label input:hover {
+  border-radius: 15px;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-image: url("/img/bgheader.png");
+  background-color: #ff50f6;
+  background-size: 800px;
+  background-position: 80px;
+}
+header img {
+  height: 100px;
+}
+header #menu {
+  float: right;
+  margin-top: 10px;
+}
+header #menu ul {
+  display: inline-block;
+}
+header #menu ul .m_items {
+  border: 2px solid #c46dfd;
+  background-color: #c46dfd;
+  border-radius: 10px;
+  list-style: none;
+  width: 100px;
+  margin: 0 20px;
+  text-align: center;
+  padding: 15px;
+  display: inline-block;
+}
+header #menu ul .m_items:hover {
+  background-color: #d39cf8;
+}
+header #menu ul .m_items .m_link {
+  text-decoration: none;
+}
+
+aside {
+  float: right;
+  width: 20%;
+  margin-right: 20px;
+}
+aside #other_menu h4 {
+  text-align: center;
+}
+aside #other_menu #other_menu_items article {
+  margin-bottom: 35px;
+}
+aside #other_menu #other_menu_items article img {
+  width: 100px;
+  float: left;
+}
+aside #other_menu #other_menu_items article p {
+  margin-left: 120px;
+}
+aside form h4 {
+  text-align: center;
+}
+aside form p {
+  height: 50px;
+}
+aside form p label input {
+  border-radius: 5px;
+  float: right;
+}
+aside form p label #review {
+  height: 50px;
+}
+aside form button {
+  display: block;
+  border-radius: 5px;
+  background-color: #ff50f6;
+  margin: 10px auto;
+  padding: 10px;
+}
+aside form button:hover {
+  background-color: #d39cf8;
+}
+
+section {
+  width: 80%;
+}
+
+footer {
+  height: 55px;
+  background-color: #ff50f6;
+}
+footer p {
+  padding: 15px;
+  text-align: center;
+}
+
+#first_section h1 {
+  text-align: center;
+}
+#first_section #first_p_div {
+  text-align: center;
+}
+#first_section #first_p_div .first_p_section {
+  display: inline-block;
+  width: 20%;
+  height: 200px;
+  padding: 15px;
+  margin-top: 0;
+  background-color: #ff50f6;
+  border-radius: 5px;
+}
+#first_section #first_p_div #midp {
+  margin: 25px 100px;
+  margin-top: 0;
+}
+
+#second_section h1 {
+  text-align: center;
+  margin-top: 0;
+}
+#second_section #second_section_img {
+  text-align: center;
+  margin-bottom: 55px;
+}
+#second_section img {
+  width: 200px;
+  height: 170px;
+  margin: 0 40px;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 25px;
+}
+h1 + div p {
+  font-size: 16.6666666667px;
+}/*# sourceMappingURL=task1.css.map */

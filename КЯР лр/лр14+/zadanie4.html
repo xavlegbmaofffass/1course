@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 4</title>
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1000 1000">
+        <defs>
+            <path id="home"
+                d="M100 59.375l-18.75-18.75v-28.125h-12.5v15.625l-18.75-18.75-50 50v3.125h12.5v31.25h31.25v-18.75h12.5v18.75h31.25v-31.25h12.5z" />
+        </defs>
+        <g transform="translate(40, 40)">
+            <use href="#home" fill="blue">
+                <animateTransform
+                    attributeName="transform"
+                    attributeType="XML"
+                    type="rotate"
+                    from="0 50 70"
+                    to="360 50 70"
+                    dur="6s"
+                    repeatCount="indefinite" />
+            </use>
+        </g>
+        <g transform="translate(160, 40)">
+            <use href="#home" fill="green">
+                <animateTransform
+                    attributeName="transform"
+                    attributeType="XML"
+                    type="scale"
+                    from="1"
+                    to="1.5"
+                    dur="3s"
+                    repeatCount="indefinite" />
+            </use>
+        </g>
+        <g transform="translate(280, 40)">
+            <use href="#home" fill="red">
+                <animate
+                    attributeName="fill"
+                    values="red;yellow;blue;red"
+                    dur="4s"
+                    repeatCount="indefinite" />
+            </use>
+        </g>
+        <g transform="translate(400, 40)">
+            <use href="#home" fill="purple">
+                <animateTransform
+                    attributeName="transform"
+                    attributeType="XML"
+                    type="translate"
+                    from="0,0"
+                    to="0,30"
+                    dur="2s"
+                    repeatCount="indefinite"
+                    additive="sum" />
+            </use>
+        </g>
+        <g transform="translate(520, 40)">
+            <use href="#home" fill="orange" opacity="1">
+                <animateTransform
+                    attributeName="transform"
+                    attributeType="XML"
+                    type="rotate"
+                    from="0 60 70"
+                    to="-360 60 70"
+                    dur="6s"
+                    repeatCount="indefinite" />
+            </use>
+        </g>
+    </svg>    
+</body>
+</html>

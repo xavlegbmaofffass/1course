@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="products">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="store">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="nstore" type="xs:string"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="nproduct">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="nname" type="xs:string"/>
+            <xs:element name="nprice" type="xs:string"/>
+            <xs:element name="ndescription" type="xs:string"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="product" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="price" type="xs:string"/>
+            <xs:element name="description" type="xs:string"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:schema>

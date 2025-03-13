@@ -1,0 +1,117 @@
+body{
+    max-width: 750px;
+    margin: 0px auto;
+}
+
+.menus{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu1{
+    background-color: rgb(28, 238, 175);
+    width: 150px;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    background-image: url(бгту.png);
+    background-position: left;
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+
+.menu2{
+    background-color:  rgb(28, 238, 175);
+    width: 150px;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    background-image:url(бгту.png);
+    background-position: left;
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+
+.menu2:hover{
+    background-image: url(фит.png);
+    background-position: left;
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+
+.menu3{
+    background-color:  rgb(28, 238, 175);
+    width: 150px;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    background-image: url(бгту.png);
+    background-position: left;
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+
+.menu3:hover{
+    background-image: url(пим.png);
+    background-position: left;
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+
+.menu4{
+    background-color:  rgb(28, 238, 175);
+    width: 150px;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    background-image: url(бгту.png);
+    background-position: left;
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+
+.menu4:hover{
+   background-image: url(хтит.png);
+    background-position: left;
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+
+.fit a{
+    text-decoration: none;
+    color: #111;
+}
+
+.fit ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.fit > ul > li  {
+    float: left;
+    width: 150px;
+    position: relative;    
+} 
+
+.caf > li {
+    line-height: 160%;
+}
+
+.fit li .caf {
+    background-color:  rgb(28, 238, 175);
+    display: none;
+    position: absolute;
+    float: left;
+    top: 104%;
+    width: 150px;
+    padding-top: 5px;
+}
+.fit li:hover .caf {
+    display: block;
+}

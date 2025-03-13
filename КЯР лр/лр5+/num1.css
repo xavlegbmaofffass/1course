@@ -1,0 +1,21 @@
+table{
+    border-collapse: collapse;
+    }
+    
+table thead tr{
+    background-color: rgb(255, 0, 128);
+    color: black;
+    }
+    
+.stolbec {
+    background-color: rgb(230, 107, 255);
+    }
+    
+td{
+    text-align: center;
+    border: 2px solid black;
+    }
+    
+.levo{
+    text-align: left;
+    }

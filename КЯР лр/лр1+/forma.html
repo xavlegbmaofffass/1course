@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+    <style> 
+        form {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset style="width: 500; height: 500;">
+            <h1>Данные студента</h1>
+            <table cellspacing="12">
+                <tr>
+                    <td align="right" width="150">Имя студента</td>
+                    <td><input type="text" placeholder="Обязательное поле"></td>
+                </tr>
+                <tr>
+                    <td align="right">Отчество студента</td>
+                    <td><input type="text" placeholder="Обязательное поле"></td>
+                </tr>
+                <tr>
+                    <td align="right">Фамилия студента</td>
+                    <td><input type="text" placeholder="Обязательное поле"></td>
+                </tr>
+                <tr>
+                    <td align="right">Адрес почты</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td align="right">Контактный номер</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td align="right">Какую социальную сеть вы используете?</td>
+                    <td>
+                        <input type="checkbox">
+                        VK
+                        <input type="checkbox">
+                        Facebook
+                        <input type="checkbox">
+                        Instagram
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="button" value="Отправить"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

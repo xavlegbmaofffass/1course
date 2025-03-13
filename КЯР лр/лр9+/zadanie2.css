@@ -1,0 +1,34 @@
+.grid{
+    display: grid;
+    grid-template-columns:  20% 20% 20% 20% 20%;
+    grid-template-rows: 280px 280px 280px 280px 280px;
+    text-align: center;
+    font-size: 20px;
+}
+
+div div{
+    border: 2px solid black;
+    margin: 15px;
+}
+
+img[alt="photo"] {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+}
+
+.gif{
+    grid-column: 4/6;
+    grid-row: 2/4;
+}
+
+.opis{
+    grid-column: 1/3;
+    grid-row: 3/5;
+    font-size: 25px;
+}
+
+img[alt="photox"]{
+    float: left;
+    width: 400px;
+}

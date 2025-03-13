@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="zadanie1.xsl"?>
+<store>
+    <products>
+        <product>
+            <id>1</id>
+            <name>Смартфон XYZ</name>
+            <price>299.99</price>
+            <description>Современный смартфон с 128 ГБ памяти и камерой 48 МП.</description>
+            <category>Электроника</category>
+        </product>
+        <product>
+            <id>2</id>
+            <name>Ноутбук ABC</name>
+            <price>799.99</price>
+            <description>Мощный ноутбук с процессором Intel i7 и 16 ГБ ОЗУ.</description>
+            <category>Компьютеры</category>
+        </product>
+        <product>
+            <id>3</id>
+            <name>Наушники DEF</name>
+            <price>89.99</price>
+            <description>Беспроводные наушники с шумоподавлением.</description>
+            <category>Аудио</category>
+        </product>
+        <product>
+            <id>4</id>
+            <name>Кофеварка GHI</name>
+            <price>49.99</price>
+            <description>Автоматическая кофеварка с функцией капучино.</description>
+            <category>Кухонная техника</category>
+        </product>
+        <product>
+            <id>5</id>
+            <name>Фитнес-браслет JKL</name>
+            <price>29.99</price>
+            <description>Умный фитнес-браслет с мониторингом сердечного ритма.</description>
+            <category>Спорт и здоровье</category>
+        </product>
+    </products>
+</store>

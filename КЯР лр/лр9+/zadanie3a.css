@@ -1,0 +1,50 @@
+div.grid {
+    display: grid;
+    grid-template-areas: 
+    "nav header header header"
+    "nav article article aside"
+    "nav article article aside"
+    "nav article article aside"
+    "footer footer footer footer";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+
+p{
+    margin: 23px;
+}
+
+.grid > div {
+    border: 3px solid black;
+    background: rgb(244, 165, 231);
+    font-size: 45px;
+}
+
+.header {
+    grid-area: header;
+    text-align: center;
+}
+
+.nav {
+        grid-area: nav;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+}
+
+.article {
+    grid-area: article;
+    text-align: center;
+}
+
+.aside {
+    grid-area: aside;
+    text-align: center;
+}
+
+.footer {
+    grid-area: footer;
+    text-align: center;
+}

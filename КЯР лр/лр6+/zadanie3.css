@@ -1,0 +1,17 @@
+figure {
+    background: #ff76e1;
+    padding: 10px;
+    width: 20%;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+img {
+    width: 330px;
+    height: 500px;
+}
+
+section {
+    text-align: center;
+}

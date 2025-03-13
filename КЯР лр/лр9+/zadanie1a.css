@@ -1,0 +1,24 @@
+.grid{
+    display: grid;
+    grid-template-columns: 6% 47% 47%;
+    border: none;
+    height: 1100px;
+}
+
+.grid div{
+    margin: 5px;
+    background-color: rgb(244, 165, 231);
+    border-style: solid;
+}
+
+.zagolovok{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-align: center;
+    font-size: 80px;
+}
+
+.yacheyka1, .yacheyka2 {
+    text-align: center;
+    font-size: 60px;
+}
