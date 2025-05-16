@@ -1,0 +1,3 @@
+﻿  lab_13.cpp
+D:\ucheba\OAIP\lab_13\lab_13\lab_13.cpp(58,21): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+  lab_13.vcxproj -> D:\ucheba\OAIP\lab_13\x64\Debug\lab_13.exe
